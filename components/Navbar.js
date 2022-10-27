@@ -17,20 +17,20 @@ const Navbar = () => {
                     <Link href="/" >Dashboard</Link>
                 </div>
                 <div className="p-4 hover:bg-blue-800 w-60 ml-4 rounded flex">
-                    <Image src="/dashboard.svg" width={15} height={15} />
-                    <Link href="/" >Orders</Link>
+                    <Image src="/list.svg" width={15} height={15} />
+                    <Link href="/orders" >Orders</Link>
                 </div>
                 <div className="p-4 hover:bg-blue-800 w-60 ml-4 rounded flex">
-                    <Image src="/dashboard.svg" width={15} height={15} />
-                    <Link href="/" >Shippings</Link>
+                    <Image src="/cart.svg" width={20} height={20} />
+                    <Link href="/shippings" >Shippings</Link>
                 </div>
                 <div className="p-4 hover:bg-blue-800 w-60 ml-4 rounded flex">
-                    <Image src="/dashboard.svg" width={15} height={15} />
-                    <Link href="/" >Support</Link>
+                    <Image src="/support.svg" width={17} height={17} />
+                    <Link href="/support" >Support</Link>
                 </div>
                 <div className="p-4 hover:bg-blue-800 w-60 ml-4 mt-10 rounded flex">
-                    <Image src="/dashboard.svg" width={15} height={15} />
-                    <Link href="/" >Settings</Link>
+                    <Image src="/settings.svg" width={15} height={15} />
+                    <Link href="/settings" >Settings</Link>
                 </div>
             </nav>
 
