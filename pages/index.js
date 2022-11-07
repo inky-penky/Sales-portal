@@ -1,8 +1,14 @@
-import Navbar from "../components/Navbar";
+import StatusBar from "../components/StatusBar";
+import Overview from "../components/Overview";
 
 
-export default function Home() {
+const Home = () => {
   return (
-    <>Dashboard</>
+    <div className="bg-gray-100">
+      <StatusBar />
+      <Overview />
+    </div>
   )
 }
+
+export default Home
